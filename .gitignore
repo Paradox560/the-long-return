@@ -1,0 +1,28 @@
+.spacefast/state.json
+/.spacefast-*
+.spacefast/.spacefast-*
+.spacefast/.space-link-*.tmp
+
+# Local credentials, dependency caches, and generated output
+.long-return-local/
+node_modules/
+.spacefast/
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+__pycache__/
+.DS_Store
+dist/
+playable/
+*.log
+
+# Private deployment records and one-off verification artifacts
+/publication*.json
+/*-receipt.json
+/verify_publication.py
+/verify_game_publication.py
+/playable-preview.png
+/.github-import-plan.json
