@@ -1,0 +1,7 @@
+{
+  "$schema": "https://spacefast.com/schemas/sf.json",
+  "runtime": {
+    "kind": "functions",
+    "compatibilityDate": "2026-07-01"
+  }
+}
